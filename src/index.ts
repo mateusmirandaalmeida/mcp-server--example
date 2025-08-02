@@ -3,8 +3,6 @@ import { z } from 'zod';
 import { ExpressHttpStreamableMcpServer } from "./server_runner.js";
 import axios from "axios";
 
-console.log("Initializing MCP Streamable-HTTP Server with Express")
-
 const servers = ExpressHttpStreamableMcpServer(
   {
     name: "irrah-mcp-server",
